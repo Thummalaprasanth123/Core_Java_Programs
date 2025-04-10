@@ -1,0 +1,17 @@
+package in.prasanth.internalimplementation;
+
+public class CustomArrayList {
+	Object[] ar;
+
+	public CustomArrayList() {
+		ar = new Object[10];
+	}
+
+	public CustomArrayList(int i) {
+		ar = new Object[i];
+	}
+	public void insert(Object obj)
+	{
+		ar[0]=obj;
+	}
+}
